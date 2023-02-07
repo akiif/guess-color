@@ -1,7 +1,7 @@
 import React from "react";
-import ColorBox from "./ColorBox";
-import GuessButton from "./GuessButton";
-import Answer from "./Answer";
+import ColorBox from "./components/ColorBox";
+import GuessButton from "./components/GuessButton";
+import Answer from "./components/Answer";
 import { useSelector, useDispatch } from "react-redux";
 
 function getRandomColor() {
